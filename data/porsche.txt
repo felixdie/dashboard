@@ -1,1 +1,128 @@
-test
+Deliveries to Customers
+Porsche AG reported robust growth in 2023 with a total of 320,221 vehicles delivered globally, a 3.3% increase compared to 2022.
+
+Germany: 32,430 vehicles (+9.9%)
+Europe (excluding Germany): 70,229 vehicles (+12.0%)
+North America (excluding Mexico): 86,059 vehicles (+8.6%)
+China (including Hong Kong): 79,283 vehicles (-15.0%)
+Rest of the World: 52,220 vehicles (+15.7%)
+The decline in China was attributed to economic challenges, while growth in other regions compensated for this reduction.
+
+Top Models and Performance
+
+Cayenne: 87,553 units (-8.4%)
+The decline resulted from the phased introduction of the new generation and delays in hybrid models due to software updates.
+Macan: 87,355 units (flat year-on-year)
+911: 50,146 units (+24.1%)
+Panamera: 34,020 units (-0.4%)
+The next generation is set to launch in 2024.
+718 Boxster/Cayman: 20,518 units (+12.7%)
+Taycan: 40,629 units (+16.7%)
+BEV (Battery Electric Vehicle) Contribution: 12.8% of total deliveries, up from 11.3% in 2022.
+
+Market Share by Region (2023)
+
+Rest of the World: 16.3%
+China (incl. Hong Kong): 24.8%
+Germany: 10.1%
+North America: 26.9%
+Europe (excl. Germany): 21.9%
+General Observations
+The Porsche Cayenne was the most delivered model, though its numbers saw a slight decline. Demand for the Taycan, the fully electric vehicle, remains strong, reflecting the brand's growth in sustainable mobility.
+
+###
+
+Production
+The Porsche AG Group produced a total of 336,280 vehicles in 2023, an increase of 4.7% compared to 2022.
+
+Production Breakdown by Model
+911: 55,655 units (2022: 41,947)
+718 Boxster/Cayman: 23,605 units (2022: 18,080)
+Macan: 87,334 units (2022: 91,117)
+Cayenne: 96,600 units (2022: 98,113)
+Panamera: 33,689 units (2022: 35,241)
+Taycan: 39,397 units (2022: 36,823)
+Total Production: 336,280 units (2022: 321,321
+
+Production Locations and Key Highlights
+Stuttgart-Zuffenhausen:
+
+Produced 39,397 Taycan units.
+Manufactured 55,655 units of the 911.
+Produced 12,652 units of the 718 Boxster/Cayman.
+Facilities are CO₂-neutral, and the production system accommodates high customization options.
+2023 saw significant upgrades:
+Expanded assembly lines.
+New autonomous transport systems (FTS).
+Enhanced inspection and finishing areas.
+Future production includes electric, two-door sports cars.
+Leipzig:
+
+Produced 121,023 vehicles, accounting for 36% of total production.
+Breakdown:
+Macan: 87,334 units.
+Panamera: 33,689 units.
+Transitioning to electric vehicle production:
+A new body construction facility established for the next-generation electric Macan.
+Expanded production lines to handle three powertrain types: gasoline, hybrid, and electric.
+Other Locations:
+
+Bratislava (Slovakia) and Malaysia: Produced 96,600 Cayenne units.
+Osnabrück: Produced 10,953 units of the 718 Boxster/Cayman.
+
+
+Financial Growth:
+
+Revenue: €40.53 billion (+7.7% YoY, 2022: €37.64 billion).
+Operating Profit: €7.28 billion (+7.7% YoY, 2022: €6.77 billion).
+Operating Margin: 18.0% (unchanged from 2022).
+Revenue growth was driven by:
+Higher vehicle sales.
+Favorable product mix and pricing effects.
+Stable cost-to-revenue ratio.
+Automobile Segment Metrics:
+
+EBITDA Margin: 25.7% (2022: 25.2%).
+Net Cash Flow: €3.97 billion (2022: €3.87 billion).
+Net Cash Flow Margin: 10.6% (2022: 11.2%).
+Electromobility:
+
+Battery Electric Vehicle (BEV) share of deliveries: 12.8% (2022: 11.3%).
+
+Earnings, Financial, and Asset Position
+Earnings Position
+The Porsche AG Group achieved revenues of €40.53 billion in fiscal year 2023, representing an increase of 7.7% compared to the previous year (2022: €37.64 billion). This growth was primarily driven by higher group sales and positive product mix and pricing effects. However, unfavorable exchange rate developments in the Chinese Renminbi and US Dollar had a counteracting effect.
+
+In 2023, the Porsche AG Group delivered 333,605 vehicles, a growth of 6.3% compared to 2022 (313,721 vehicles).
+
+Cayenne: 92,866 vehicles (-4.1%)
+Macan: 90,161 vehicles
+911: 53,741 vehicles (+32.0%)
+718 Boxster/Cayman: 22,395 vehicles (+21.8%)
+Taycan: 40,056 vehicles (+17.5%)
+Regional Performance:
+North America (excl. Mexico): The largest market with 92,012 vehicles sold (+14.9%).
+China (incl. Hong Kong): Decrease to 79,331 vehicles (-17.7%) due to economic challenges.
+Rest of the World: Growth of 12,036 vehicles.
+Europe (excl. Germany): Growth of 9,641 vehicles.
+Germany: Growth of 3,309 vehicles.
+Group Sales by Model:
+Model	2023	2022
+911	53,741	40,715
+718 Boxster/Cayman	22,395	18,392
+Macan	90,161	89,767
+Cayenne	92,866	96,800
+Panamera	34,386	33,958
+Taycan	40,056	34,089
+Gross Profit and Costs:
+Cost of Sales: €28.92 billion (+€1.84 billion).
+Gross Profit: €11.61 billion (+10.0%), gross margin: 28.6% (2022: 28.0%).
+Selling Expenses: €2.87 billion (7.1% of revenue).
+Administrative Expenses: €1.79 billion (4.4% of revenue, stable compared to 2022).
+Other Operating Income: €335 million (+€103 million).
+
+
+
+
+
+
