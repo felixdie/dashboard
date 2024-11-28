@@ -1,13 +1,11 @@
-### wip
 # Data loading
 data_task_1: "https://raw.githubusercontent.com/felixdie/dashboard/refs/heads/main/data/"
-data_task_2: ""
-
+data_task_2: "" ### wip
 
 # Preprocessing task 1
-chunk_size_task_1: 100
-chunk_overlap_task_1: 10
-number_chunks_task_1: 2
+chunk_size_task_1: 10000
+chunk_overlap_task_1: 0
+number_chunks_task_1: 1
 
 ### wip
 # Preprocessing task 2
@@ -15,34 +13,31 @@ chunk_size_task_2: 75000
 chunk_overlap_task_2: 0
 number_chunks_task_2: 1
 
-
 # LLM settings
 llm_model: "gpt-4o-mini"
 max_retries: 3
 temperature_master_agent: 0.0
-temperature_agent: 0.2
+temperature_get_filepath_agent: 0.2
 temperature_task_1: 0.2
 temperature_task_2: 0.5
 
 # Sytem prompts
 system_prompt_master_agent: |
-  You are a helpful assistant. Your task is to determine which task the user wants to do.
-  
-  Task 1: The user asks about information on car manufacturers other than "Audi". 
+  Task 1: The user asks about information on car manufacturers other than "Audi".
   In this case, the user will name one of the following car companies:
   - "Porsche"
   - "VW"
-  
-  Task 2: The user asks you about KPIs of "Audi".
+  Task 2: The user asks about KPIs of "Audi".
 
-  When the user mentions "Audi", return "task_1". When the user mentions another car manufacturer, return "task_2". 
+  When the user mentions a car manufacturer other than Audi, return "task_1".
+  When the user mentions "Audi", return "task_2".
   Either return "task_1" or "task_2" and nothing else.
 
 system_prompt_get_filepath: |
   You are a helpful assistant. Your task is to extract the name of the car manufacturer in the user input.
-  The user will name one of the following car companies:
-  - Porsche
-  - VW
+  The user will name one of the following car manufacturers:
+  - "Porsche"
+  - "VW"
 
   Only return the name of the car manufacturer, nothing else.
 
@@ -52,12 +47,12 @@ system_prompt_task_1: |
   Only provide information on the car manufacturer and the KPIs the user asks for. Keep your answer concise.
   
   Answer the questions based on the below context.
-  If the context doesn't contain any relevant information to the question, don't make something up and just say "I don't have the right context to answer".
+  If this is not possible, use Python code to perform calulations draw your conclusions and answer the question.
+  If calculations in python do not help just say "I don't have the right context to answer".
 
   <context>
   {context}
   </context>
-
 
 ### wip
 system_prompt_task_2: |

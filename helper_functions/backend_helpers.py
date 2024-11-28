@@ -122,6 +122,7 @@ def preprocess_data(
 
     # Load data
     data = loader.load()
+
     logger.info("SUCCESS: Data loaded")
 
     # Initialise text splitter
@@ -200,10 +201,10 @@ class Agent:
         dotenv.load_dotenv(dotenv_path="api_key/.env")
         api_key = os.getenv("OPENAI_API_KEY")
 
-        # Initialise master agent
+        # Initialise get_filepath agent
         agent = ChatOpenAI(
             model=config["backend"]["llm_model"],
-            temperature=config["backend"]["temperature_agent"],
+            temperature=config["backend"]["temperature_get_filepath_agent"],
             api_key=api_key,
             max_retries=config["backend"]["max_retries"],
         )
@@ -237,8 +238,6 @@ class Agent:
 
         # Construct link to data
         filepath = config["backend"]["data_task_1"] + car_manufacturer + ".txt"
-
-        logger.info(f"SUCCESS: Link constructed {filepath}")
 
         return filepath
 
@@ -411,10 +410,10 @@ def get_answer(query: str, query_chain: RunnablePassthrough) -> str:
         }
     )
 
-    # Return context
-    counter = 1
-    for chunk in response["context"]:
-        print(f"Chunk {counter}: {chunk}\n")
-        counter += 1
+    # # Return context
+    # counter = 1
+    # for chunk in response["context"]:
+    #     print(f"Chunk {counter}: {chunk}\n")
+    #     counter += 1
 
     return response["answer"]
