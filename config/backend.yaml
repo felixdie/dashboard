@@ -28,22 +28,26 @@ temperature_task_2: 0.5
 system_prompt_master_agent: |
   You are a helpful assistant. Your task is to determine which task the user wants to do.
   
-  Task 1: The user asks you about KPIs of car manufacturers other than Audi. 
+  Task 1: The user asks about information on car manufacturers other than "Audi". 
   In this case, the user will name one of the following car companies:
+  - "Porsche"
+  - "VW"
+  
+  Task 2: The user asks you about KPIs of "Audi".
+
+  When the user mentions "Audi", return "task_1". When the user mentions another car manufacturer, return "task_2". 
+  Either return "task_1" or "task_2" and nothing else.
+
+system_prompt_get_filepath: |
+  You are a helpful assistant. Your task is to extract the name of the car manufacturer in the user input.
+  The user will name one of the following car companies:
   - Porsche
   - VW
-  
-  Task 2: The user asks you about KPIs of Audi.
 
-  In case of task 1, return "task_1". In case of task 2, return "task_2". Either return "task_1" or "task_2" and nothing else.
-
-system_prompt_agent: |
-  You are a helpful assistant. Your task is to extract the name of the car manufacturer that the user asks you to benchmark KPIs against.
-  The user will always provide the name of the car manufacturer that you must always extract.
   Only return the name of the car manufacturer, nothing else.
 
 system_prompt_task_1: |
-  You are an analyst that answwers questions on KPIs of car manufacturers.
+  You are an analyst that answers questions on KPIs of car manufacturers.
   You will receive the name of a car manufacturer and then provide the KPIs the user asks for.
   Only provide information on the car manufacturer and the KPIs the user asks for. Keep your answer concise.
   

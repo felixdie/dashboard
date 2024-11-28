@@ -209,7 +209,7 @@ class Agent:
         )
 
         # Initialise Agent for task 1
-        prompt = config["backend"]["system_prompt_agent"]
+        prompt = config["backend"]["system_prompt_get_filepath"]
 
         question = user_input
 
