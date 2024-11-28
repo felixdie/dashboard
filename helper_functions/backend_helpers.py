@@ -238,6 +238,8 @@ class Agent:
         # Construct link to data
         filepath = config["backend"]["data_task_1"] + car_manufacturer + ".txt"
 
+        logger.info(f"SUCCESS: Link constructed {filepath}")
+
         return filepath
 
 
